@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.cabecalho {
+    padding: 20px 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cabecalho__link {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 1.5625rem;
+}
+
+.cabecalho__link:hover {
+    font-size: 27px;
+}
+
+.icone__perfil {
+    width: 40px;
+}
+
+.icone__perfil:hover {
+    width: 42px;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+}
+
+.conteudo {
+    padding: 45px 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.titulo__matue {
+    font-family: "Open Sans", sans-serif;
+}
+
+.titulo__musicas {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+}
+
+.titulo__destaque {
+    color: chartreuse;
+}
+
+.titulo__destaque2 {
+    color: darkgreen;
+}
+
+.titulo__destaque3 {
+    color: rgb(138, 187, 55);
+}
+
+.titulo__destaque4 {
+    color: rgb(171, 224, 110);
+}
+
+.img {
+    border-radius: 10px;
+    width: 90%;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.img:hover {
+    width: 92%;
+    cursor: pointer;
+}
+
+.capa__musica {
+    width: 55px;
+}
+
+.musicas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.musicas__conteudo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 30px;
+    justify-content: space-around;
+    background-color: #161616;
+    height: 80px;
+    width: 650px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: chartreuse;
+}
+
+.musicas__conteudo:hover {
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.nome__musica {
+    font-weight: 400;
+    color: white;
+}
+
+.rodape {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    gap: 3px;
+}
+
+.rodape__destaque {
+    color: chartreuse;
+}
+
+.titulo__planos {
+    font-family: "Madimi One", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 50px;
+}
+
+.conteudo__planos {
+    padding: 45px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.titulo__planos__preco {
+    font-family: "Madimi One", sans-serif;
+}
+
+.preco {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.beneficio {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+.aviso__estudante {
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(84, 168, 0);
+    font-size: 13px;
+}
+
+.plano {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #161616;
+    border-radius: 6px;
+    width: 350px;
+}
+
+.plano:hover {
+    background-color: rgb(36, 36, 36);
+    width: 361px;
+    cursor: pointer;
+}
+
+.planos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.avisoo {
+    display: flex;
+    margin-bottom: 1px;
+    flex-direction: column;
+}
+
+.conteudo__perfil {
+    padding: 45px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.conteudo__alterar {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.infos__perfil__ {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info__perfil {
+    background-color: #1a1a1a;
+    width: 400px;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    color: chartreuse;
+}
+
+.textos__perfil__ {
+    background-color: #1a1a1a;
+    width: 700px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.texto__perfil {
+    font-family: "Montserrat", sans-serif;
+    color: chartreuse;
+    
+}
+
+.titulo__destaque5 {
+    color: #838383;
+}
+
+.titulo__destaque5:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.titulo__destaque6 {
+    color: white;
+}
+
+.img__perfil:hover {
+    width: 260px;
+    cursor: pointer;
+}
+
+
+
+
+
